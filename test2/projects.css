@@ -13,16 +13,12 @@ ul {
 }
 
 .projects__list-items {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 200px;
 }
 
 .projects__list-items-logo img {
     width: 200px;
-}
-
-
-.projects__list-items {
-    display: flex;
-    align-items: center;
 }

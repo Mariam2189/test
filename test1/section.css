@@ -1,4 +1,4 @@
-.section {
+.section-conteiner {
     width: 100%;
     background-image: url(./img/f9371a8fa554687efc9c00f8721ae43e.jpg);
     background-color: #333333;
@@ -7,27 +7,27 @@
     height: 250px;
 }
 
-.section__block {
+.section-conteiner__block {
     text-align: center;
     margin: auto;
     padding: 20px;
 }
 
 @media (min-width: 400px) {
-    .section__block {width: 400px;}
+    .section-conteiner__block {width: 400px;}
 } 
 
 
-.section__block-heading {
+.section-conteiner__block-heading {
     line-height: -10px;
     font-size: 18px;
 }
-.section__button {
+.section-conteiner__button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section__button-click {
+.section-conteiner__button-click {
     background-color: tomato;
     color: white;
     width: 100px;
