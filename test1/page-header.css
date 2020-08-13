@@ -1,0 +1,18 @@
+.page-header__conteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.page-header__list-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-header__list-main li {
+    margin: 0 0 0 20px;
+}

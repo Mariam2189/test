@@ -1,0 +1,28 @@
+.footer {
+    background: #333333;
+    color: white;
+}
+
+
+.footer__conteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.footer__conteiner-button {
+    background-color: tomato;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #333333;
+    border: none;
+}
+
+
+@media (max-width: 500px) {
+    .footer__conteiner-button {margin-top: 10px;}
+}

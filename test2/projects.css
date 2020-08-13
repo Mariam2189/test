@@ -1,0 +1,28 @@
+ul {
+    padding: 0;
+}
+.projects li {
+    list-style-type: none;
+    margin: 10px 20px 10px 10px;
+}
+
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.projects__list-items {
+    width: 200px;
+    height: 200px;
+}
+
+.projects__list-items-logo img {
+    width: 200px;
+}
+
+
+.projects__list-items {
+    display: flex;
+    align-items: center;
+}
